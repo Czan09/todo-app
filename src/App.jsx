@@ -1,8 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-// Import the actual Page components from the 'pages' folder
-import TodoListPage from './pages/RodoListPage'; // <-- Use the correct filename
-import CreateTodoPage from './pages/CreateTodoPage'; // <-- Use the correct filename
-import EditTodoPage from './pages/EditTodoPage'; // <-- Use the correct filename
+import TodoListPage from './pages/RodoListPage';
+import CreateTodoPage from './pages/CreateTodoPage'; 
+import EditTodoPage from './pages/EditTodoPage'; 
 
 import './App.css'; 
 
