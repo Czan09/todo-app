@@ -7,7 +7,8 @@ export default function EditTodoPage() {
   const { id } = useParams();
   const navigate = useNavigate();
   const [todo, setTodo] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [
+    loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchTodo = async () => {

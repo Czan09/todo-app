@@ -28,7 +28,7 @@ export default function CreateTodoPage() {
 
         console.error("Failed to create Todo:", error);
         alert("An error occurred while creating the Todo.");
-    }
+    }3
   };
 
   return (
